@@ -1,0 +1,154 @@
+
+.body{
+    margin: 0px;
+}
+.container{
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    
+}
+.section_title{
+    padding: 2% 0%;
+}
+.section_title a{
+    color: orange;
+    text-decoration: none;
+}
+.section_title a:hover{
+    transform: scale(1.05);
+}
+.card{
+    padding: 2%;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 50px 1px #cecece;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+button{
+    color: white;
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+.nav-link:hover{
+    transform: scale(0.9);
+    color: yellow;
+}
+.carousel-inner{
+    background-image: 
+    url(css/images/best_products.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: 6%;
+}
+
+
+.first_section{
+    background-image: url(css/images/ellipses.jpg);  
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    
+}
+
+.carousel-item{
+    padding: 20px 40px;
+}
+.carousel-indicators li{
+    background-color: grey;
+}
+.carousel-indicators .active{
+    background-color: orange;
+}
+
+.categories{
+    text-align: center;
+    margin-top: 10%;
+}
+#cat_hr{
+    width: 40px;
+    margin: 0px auto 20px auto;
+    padding: 5px 50px;
+    background-image: linear-gradient(90deg, #ffd280, orange);
+    border-radius: 20px;
+}
+.cat_bag{
+    margin: 10% 0%;
+    padding: 30% 10% 10% 10%;
+    text-align: center;
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 2px 2px 50px 1px #cecece;
+}
+.cat_beauty{
+    margin: 10% 0%;
+    padding: 30% 10% 10% 10%;
+    text-align: center;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 2px 2px 50px 1px #cecece;
+}
+.cat_shoe{
+    margin: 10% 0%;
+    padding: 30% 10% 10% 10%;
+    text-align: center;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 2px 2px 50px 1px #cecece;
+}
+.cat img{
+    width: 50%;
+    margin: 0px auto;
+    padding: ;
+}
+.cat_busket:hover{
+    transform: scale(1.02);
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  
+  .fa-linkedin {
+    background: #3295C3;
+    color: white;
+  }
+
+.footer a{
+    color: black;
+    text text-decoration: none;
+}
+.footer p{
+    margin: 0px;
+}
+
+footer{
+    text-align: center;
+}
